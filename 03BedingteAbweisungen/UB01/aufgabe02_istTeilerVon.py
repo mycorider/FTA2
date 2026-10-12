@@ -17,7 +17,7 @@ teiler = int(input("Geben Sie nun den Teiler ein: "))
 meldung = str(teiler) + " ist kein Teiler von " + str(eingabe)
 #
 # Wir überprüfen unsere Behauptung, indem wir mit Hilfe des Restwertoperators % auf einen
-# Divisioonsrest von 0 prüfen
+# Divisionsrest von 0 prüfen
 # 
 if eingabe%teiler==0:
     meldung = str(teiler) + " ist ein Teiler von " + str(eingabe)
